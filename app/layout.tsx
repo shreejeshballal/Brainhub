@@ -3,8 +3,8 @@ import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 
 export const metadata = {
-  title: "BrainHub",
-  description: "A Next.js 14 Threads clone",
+  title: "Threads",
+  description: "A Next.js 14 social media application",
 };
 
 const inter = Inter({ subsets: ["latin"] });
