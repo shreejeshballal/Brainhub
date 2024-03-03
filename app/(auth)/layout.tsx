@@ -5,7 +5,11 @@ export default function RootLayout({
 }) {
   return (
     <>
-      <section className="bg-dark-1">{children}</section>
+      <section className="bg-dark-1">
+        <div className="w-full flex justify-center items-center min-h-screen">
+          {children}
+        </div>
+      </section>
     </>
   );
 }
